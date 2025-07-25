@@ -7,9 +7,9 @@ export class LoginPage {
     constructor(page: Page) {
         this.page = page;
     }
-    async login(username: string, password: string) {
-    await this.page.goto('https://qa2.hwlmsp.com/user/loggedOut?referrer=%2F&loginName=&statusCode=401&softSSOMessage=');
-    await this.page.locator('#loginName').fill(username);    
+    async login(url: string, username: string, password: string) {
+    await this.page.goto(url);
+    await this.page.locator('#loginName').fill(username);
     await this.page.waitForTimeout(1000);
     await this.page.locator('#loginPassword').fill(password);
     await this.page.waitForTimeout(1000);

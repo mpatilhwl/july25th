@@ -10,14 +10,14 @@ import {test, expect} from "@playwright/test";
 import {LoginPage} from "../pages/LoginPage";
 import {AddStaffPage} from "../pages/AddStaffPage";
 import {RandomDataUtil} from "../utils/randomDatagGenerator";
-
-
+import { DataProvider } from '../utils/dataProviders';
 
     test("Login Test", async ({page})=>{
         const loginPage = new LoginPage(page);
         const addStaffPage = new AddStaffPage(page);
+        const LoginData = DataProvider.getTestDataFromJson('./testData/loginData.json')[0];
 
-        await loginPage.login('agency20', 'Y4mth@ng!24');
+        await loginPage.login(LoginData.baseURL, LoginData.userName, LoginData.password);
         await addStaffPage.navigateToStaffPool();
         await addStaffPage.clickAddStaffButton();
         await addStaffPage.fillStaffDetails(
