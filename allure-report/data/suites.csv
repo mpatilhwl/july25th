@@ -1,2 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","21322","Login Test","chromium","Sat Jul 26 00:14:24 IST 2025","passed","Sat Jul 26 00:14:45 IST 2025","","addStaff.spec.ts","",""
+"","28448","Login Test","chromium","Sat Jul 26 17:06:54 IST 2025","passed","Sat Jul 26 17:07:23 IST 2025","","addStaff.spec.ts","",""
+"","20218","Add New Staff Member","chromium","Sat Jul 26 00:18:38 IST 2025","passed","Sat Jul 26 00:18:59 IST 2025","Staff Management Tests","addStaff.spec.ts","",""

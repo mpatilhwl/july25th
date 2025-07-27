@@ -18,6 +18,7 @@ import { DataProvider } from '../utils/dataProviders';
         const LoginData = DataProvider.getTestDataFromJson('./testData/loginData.json')[0];
 
         await loginPage.login(LoginData.baseURL, LoginData.userName, LoginData.password);
+        
         await addStaffPage.navigateToStaffPool();
         await addStaffPage.clickAddStaffButton();
         await addStaffPage.fillStaffDetails(
