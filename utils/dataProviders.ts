@@ -12,4 +12,7 @@ export class DataProvider {
         let data = parse(fs.readFileSync(filePath),{columns: true, skip_empty_lines: true});
         return data;
     }
+
+
+    
 }
