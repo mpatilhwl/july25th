@@ -1,0 +1,177 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: /shiftrock/user/index
+  - img
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: /shiftrock/user/viewHomeDashboard
+  - listitem:
+    - link "Requisitions":
+      - /url: /shiftrock/requisitionLocum/agencyLocumRequisition
+  - listitem:
+    - link "Staff Pool":
+      - /url: /shiftrock/agencyProfile/loadRnsList
+  - listitem:
+    - link "Schedule":
+      - /url: "#"
+  - listitem:
+    - link "Timecards":
+      - /url: /shiftrock/hospital/viewShiftHistory
+  - listitem:
+    - link "Invoices":
+      - /url: "#"
+  - listitem:
+    - link "Expenses":
+      - /url: /shiftrock/locumMiscellaneous/viewLocumExpense
+  - listitem:
+    - link "Reports":
+      - /url: /shiftrock/report/loadReports?highlight=Reports
+  - listitem:
+    - link "Agmt Alerts! 31":
+      - /url: /shiftrock/requisitionLocum/showAssignmentForApproval
+  - listitem:
+    - link "Data Services":
+      - /url: "#"
+  - listitem:
+    - link "Settings":
+      - /url: "#"
+  - listitem: Mark
+- list:
+  - listitem: "Agency: Medical Staffing Solutions"
+- link:
+  - /url: javascript:void(0)
+- heading "Add Staff" [level=1]
+- textbox: Addison
+- text: First Name*
+- textbox: Kozey
+- text: Last Name*
+- textbox: ARK4270@shiftrock.com
+- text: Email*
+- textbox: 120-9100 Blundell Rd
+- text: Address Line 1* Canada
+- list:
+  - listitem
+  - listitem: USA
+  - listitem: Canada
+- text: Country *
+- textbox: Richmond
+- text: City*
+- button
+- text: Provider Credential Panel Eastern Standard Time (EST) (GMT-05:00)
+- list:
+  - listitem
+  - listitem: Eastern Standard Time (EST) (GMT-05:00)
+  - listitem: Central Standard Time (CST) (GMT-06:00)
+  - listitem: Mountain Standard Time (MST) (GMT-07:00)
+  - listitem: Pacific Standard Time (PST) (GMT-08:00)
+  - listitem: Alaskan Standard Time (AKST) (GMT-09:00)
+  - listitem: Hawaiian Standard Time (HST) (GMT-10:00)
+  - listitem: Mountain Standard Time - Arizona (MST Arizona) (GMT-07:00)
+  - listitem: Indian Standard Time (IST) (GMT+05:30)
+- text: Timezone*
+- strong: Preferred Distance to Work*
+- list:
+  - listitem:
+    - radio
+    - text: <= 50 miles
+  - listitem:
+    - radio [checked]
+    - text: No Restriction
+- button "Add Staff"
+- textbox: Rowan
+- text: Middle Name
+- textbox
+- text: Date of Birth
+- textbox
+- text: SSN
+- textbox: (111) 111-1111
+- text: Mobile Number*
+- textbox
+- text: Address Line 2 British Columbia
+- list:
+  - listitem
+  - listitem: Alberta
+  - listitem: British Columbia
+  - listitem: Manitoba
+  - listitem: New Brunswick
+  - listitem: Newfoundland and Labrador
+  - listitem: Northwest Territories
+  - listitem: Nova Scotia
+  - listitem: Nunavat Territory
+  - listitem: Ontario
+  - listitem: Prince Edward Island
+  - listitem: Quebec
+  - listitem: Saskatchewan
+  - listitem: Yukon Territory
+- text: Province / Territory*
+- textbox: V6Y 3X9
+- text: Postal Code*
+- textbox: "5450125711"
+- text: National Provider Identifier (NPI)* Cardiology
+- list:
+  - listitem
+  - listitem: Allergy & Immunology
+  - listitem: Anesthesiologist
+  - listitem: Cardiology
+  - listitem: CRNA
+  - listitem: Dentistry
+  - listitem: Dermatalogy
+  - listitem: Endocrinology
+  - listitem: Family Medicine
+  - listitem: Family Medicine NP
+  - listitem: Family Medicine PA
+  - listitem: Gastroenterology
+  - listitem: Geriatric
+  - listitem: Hospitalist
+  - listitem: Internal Medicine
+  - listitem: Neonatal
+  - listitem: Nephrology
+  - listitem: Neurologist
+  - listitem: OB / GYN
+  - listitem: Oncology
+  - listitem: Ophthalmology
+  - listitem: Osteopathic
+  - listitem: Otolaryngology
+  - listitem: Pathology
+  - listitem: Pediatrics
+  - listitem: Perinatal
+  - listitem: Physician
+  - listitem: Physician Assistant
+  - listitem: Podiatrist
+  - listitem: Psychiatrist
+  - listitem: Psychiatrist NP
+  - listitem: Psychiatrist PA
+  - listitem: Pulmonary
+  - listitem: Rheumatologist
+  - listitem: Surgeon
+- text: Class* Resume/Experience (CV)
+- button "Choose File"
+- textbox
+- textbox
+- text: .doc .docx .pdf .jpeg .jpg .png Select a facility for job titles used by this facility
+- button
+- text: Facility
+- heading "Select Job Titles *" [level=3]
+- text: Select All
+- checkbox [checked]
+- checkbox [checked]
+- text: Cardiologist (Physician)
+- checkbox [checked]
+- text: PediatricCardiologist (Physician)
+- checkbox [checked]
+- text: PediatricTransplantCardiologist (Physician)
+- heading "Job Titles Selected" [level=3]
+- list:
+  - listitem: Cardiologist (Physician)X
+  - listitem: PediatricCardiologist (Physician)X
+  - listitem: PediatricTransplantCardiologist (Physician)X
+- paragraph:
+  - text: Healthcare Workforce Logistics, LLC © 2025 -
+  - link "Terms & Conditions":
+    - /url: /shiftrock/user/termsConditions
+  - link "Contact HWL Support":
+    - /url: https://info.hwlmsp.com/support
+```
