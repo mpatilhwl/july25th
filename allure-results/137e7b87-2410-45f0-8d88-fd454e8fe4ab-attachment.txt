@@ -1,0 +1,5 @@
+Addition is = 1025
+Subtraction is = 975
+Multiplication is = 25000
+Division is = 40
+Modulus is = 0

@@ -1,0 +1,5 @@
+Addition is = 15
+Subtraction is = 5
+Multiplication is = 50
+Division is = 2
+Modulus is = 0

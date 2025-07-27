@@ -1,0 +1,5 @@
+Addition is = 1023
+Subtraction is = 977
+Multiplication is = 23000
+Division is = 43.47826086956522
+Modulus is = 11
